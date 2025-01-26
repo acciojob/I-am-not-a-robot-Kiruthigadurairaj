@@ -15,7 +15,12 @@
 .img5 {
   content: url("https://picsum.photos/200/300.jpg");
 }
-
+h1{
+  text-align: center;
+}
+main{
+  text-align: center;
+}
 img {
   margin: 10px;
   border: 5px solid #555;
@@ -37,4 +42,9 @@ p {
 
 button {
   margin: 20px;
+}
+#verify,
+#reset,
+#para {
+  display: none;
 }
